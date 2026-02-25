@@ -249,3 +249,4 @@ const darkModeStyles = `
 const styleElement = document.createElement('style');
 styleElement.innerHTML = darkModeStyles;
 document.head.appendChild(styleElement);
+
