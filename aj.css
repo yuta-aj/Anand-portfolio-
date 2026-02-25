@@ -1,0 +1,21 @@
+/* Education Section */
+.education-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 3rem;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .education-content {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .education-content {
+        grid-template-columns: 1fr; /* 1 column for mobile */
+    }
+}
